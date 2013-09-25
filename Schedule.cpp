@@ -23,7 +23,7 @@
  ******************************************************************************/
 
 #include "Arduino.h"
-#include "schedule.h"
+#include "Schedule.h"
 #include <inttypes.h>
 #include <avr/pgmspace.h>
 

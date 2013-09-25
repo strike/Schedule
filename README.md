@@ -11,7 +11,7 @@ Clone this library in arduino library folder (/usr/share/arduino/libraries/ (Ubu
 For months:
 --------------
 ```cpp
-#include <schedule.h>
+#include <Schedule.h>
 
 prog_char jan[] PROGMEM = {3,15};
 prog_char feb[] PROGMEM = {0,25}; // all day time
@@ -49,7 +49,7 @@ void loop(){
 Seasons:
 --------------
 ```cpp
-#include <schedule.h>
+#include <Schedule.h>
 
 prog_char win[] PROGMEM = {3, 3};
 prog_char spr[] PROGMEM = {5,21};
@@ -74,7 +74,7 @@ Intervals:
 --------------
 
 ```cpp
-#include <schedule.h>
+#include <Schedule.h>
 
 prog_char int1[] PROGMEM = {6, 15,	3,21}; // from 15 june to 17 september, work from 3 to 21 hour
 prog_char int2[] PROGMEM = {9, 17,  4,19};
