@@ -1,14 +1,16 @@
-ABOUT
+Schedule
 ===============
+
+## About
 
 schedule is arduino library for day schedule (for example, work hours). You can set interval in hours [hour on, hour off) where function would be return true and false at other time.
 You can set different interval only for months, seasons and custom intervals.
 
-USAGE
-===============
+## Usage
+
 Clone this library in arduino library folder (/usr/share/arduino/libraries/ (Ubuntu)) and add this code*:
 
-For months:
+### For months:
 --------------
 ```cpp
 #include <Schedule.h>
@@ -46,7 +48,7 @@ void loop(){
 }
 ```
 
-Seasons:
+### Seasons:
 --------------
 ```cpp
 #include <Schedule.h>
@@ -70,7 +72,7 @@ void checkSchedule(){
 ```
 
 
-Intervals:
+### Intervals:
 --------------
 
 ```cpp
@@ -96,6 +98,6 @@ void checkSchedule(){
 
 *You are required to implement getMonth() and getHour() and maybe getDay() (for interval mode) function. For exmaple you can get datetime from GSM modem (I use SIM900) or from internet.
 
-Check schedule:
+## Check schedule:
 --------------
 For control chedule check I print all schedule (printAllShedule in example folder) and copy all result (from serial port) to [google table](http://goo.gl/mg8KNs) 
